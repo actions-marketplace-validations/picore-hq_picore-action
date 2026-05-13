@@ -1,4 +1,4 @@
-name: picore
+name: picore-action
 description: Application security action combining scan and upload capabilities.
 author: PicAppSec
 
