@@ -1,0 +1,9 @@
+name: picore/scan
+description: Scan step of the picore action.
+
+runs:
+  using: composite
+  steps:
+    - name: Scan
+      shell: bash
+      run: echo "picore scan: running..."

@@ -1,0 +1,9 @@
+name: picore/upload
+description: Upload step of the picore action.
+
+runs:
+  using: composite
+  steps:
+    - name: Upload
+      shell: bash
+      run: echo "picore upload: running..."

@@ -1,0 +1,16 @@
+name: picore
+description: Application security action combining scan and upload capabilities.
+author: PicAppSec
+
+branding:
+  icon: shield
+  color: blue
+
+runs:
+  using: composite
+  steps:
+    - name: Run scan
+      uses: ./scan
+
+    - name: Run upload
+      uses: ./upload
